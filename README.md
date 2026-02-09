@@ -47,19 +47,6 @@ Follow-Up Scheduler
       ↓
 Final Decision (Auto-Reply or Escalation)
 
-📁 Project Structure
-
-ai_support_agent/
-├── agent.py              # Main orchestrator
-├── llm.py                # Google Gemini LLM configuration
-├── classifier.py         # Urgency & topic classification
-├── knowledge_base.py     # Vector-based documentation search
-├── responder.py          # Customer response generation
-├── escalation.py         # Escalation decision logic
-├── followup.py           # Follow-up scheduling
-├── sample_emails.py      # Example test inputs
-├── README.md             # Project documentation
-└── .env                  # API keys (not committed)
 
 ⚙️ Technology Stack
 
@@ -74,6 +61,8 @@ FAISS (vector search)
 Google Generative AI Embeddings
 
 🔑 Setup Instructions
-1️⃣ Install Dependencies
+
+1️⃣ Use Google colab to make this work as is. 
+      Add GEMINI_API_KEY as secret in Google Colab and provide Note book access
 pip install langchain langchain-google-genai langchain-community google-generativeai python-dotenv faiss-cpu
 
