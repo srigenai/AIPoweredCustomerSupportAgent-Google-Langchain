@@ -62,7 +62,4 @@ Google Generative AI Embeddings
 
 🔑 Setup Instructions
 
-1️⃣ Use Google colab to make this work as is. 
-      Add GEMINI_API_KEY as secret in Google Colab and provide Note book access
-pip install langchain langchain-google-genai langchain-community google-generativeai python-dotenv faiss-cpu
-
+Use Google colab to make this work as is. Add GEMINI_API_KEY as secret in Google Colab and provide access to the notebiook AIPoweredCustomerSupportAgent-Google-Langchain.ipynb
